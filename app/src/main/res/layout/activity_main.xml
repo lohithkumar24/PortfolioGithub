@@ -34,7 +34,7 @@
             android:background="@color/background"
             android:text="@string/pop_mov"
             android:textColor="@color/white"
-            android:onClick="showToastPopularMovies"/>
+            android:onClick="displayMessage"/>
 
         <Button
             android:layout_width="200dp"
@@ -44,7 +44,7 @@
             android:background="@color/background"
             android:text="@string/st_hawk"
             android:textColor="@color/white"
-            android:onClick="showToastStockHawk"/>
+            android:onClick="displayMessage"/>
 
         <Button
             android:layout_width="200dp"
@@ -54,7 +54,7 @@
             android:background="@color/background"
             android:text="@string/build_big"
             android:textColor="@color/white"
-            android:onClick="showToastBuildItBigger"/>
+            android:onClick="displayMessage"/>
 
         <Button
             android:layout_width="200dp"
@@ -64,7 +64,7 @@
             android:background="@color/background"
             android:text="@string/make_mat"
             android:textColor="@color/white"
-            android:onClick="showToastMakeYourAppMaterial"/>
+            android:onClick="displayMessage"/>
 
         <Button
             android:layout_width="200dp"
@@ -74,7 +74,7 @@
             android:background="@color/background"
             android:text="@string/go_ubi"
             android:textColor="@color/white"
-            android:onClick="showToastGoUbiquitous" />
+            android:onClick="displayMessage" />
 
         <Button
             android:layout_width="200dp"
@@ -83,7 +83,7 @@
             android:background="@color/background"
             android:text="@string/capstone"
             android:textColor="@color/white"
-            android:onClick="showToastCapstone" />
+            android:onClick="displayMessage" />
 
     </LinearLayout>
 
